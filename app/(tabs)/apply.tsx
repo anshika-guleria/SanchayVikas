@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { ActivityIndicator, Alert, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { useTheme } from '../(context)/ThemeContext';
 import FloatingButtons from '../../components/FloatingButtons';
-import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import { loanTypes } from '../../constants/data';
 
@@ -164,7 +163,7 @@ export default function ApplyScreen() {
           By submitting you agree to our Terms & Conditions.{'\n'}Your information is safe and will not be shared.
         </Text>
 
-        <Footer darkMode={darkMode} />
+      
       </ScrollView>
 
       <FloatingButtons />

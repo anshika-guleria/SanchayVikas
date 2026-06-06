@@ -77,7 +77,7 @@ export default function ContactScreen() {
         </View>
 
         <View style={{ margin: 16, backgroundColor: cardBg, borderRadius: 16, padding: 20 }}>
-          <Text style={{ fontSize: 15, fontWeight: '700', color: titleColor, marginBottom: 20 }}>Send us a Message</Text>
+          <Text style={{ fontSize: 16, fontWeight: '700', color: titleColor, marginBottom: 20 }}>Send us a Message</Text>
 
           {[
             { label: 'Your Name', field: 'name', placeholder: 'Enter your name', keyboard: 'default' },

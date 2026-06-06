@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from 'react-native';
 import { useTheme } from '../(context)/ThemeContext';
 import FloatingButtons from '../../components/FloatingButtons';
-import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 
 const HIGHLIGHTS = [
@@ -89,7 +88,7 @@ export default function AboutScreen() {
           </View>
         </View>
 
-        <Footer darkMode={darkMode} />
+      
       </ScrollView>
       <FloatingButtons />
     </View>

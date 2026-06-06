@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from 'react-native';
 import { useTheme } from '../(context)/ThemeContext';
 import FloatingButtons from '../../components/FloatingButtons';
-import Footer from '../../components/Footer';
 import LoanCard from '../../components/Loancard';
 import Navbar from '../../components/Navbar';
 import { loanTypes } from '../../constants/data';
@@ -60,7 +59,7 @@ export default function ServicesScreen() {
           ))}
         </View>
 
-        <Footer darkMode={darkMode} />
+       
       </ScrollView>
       <FloatingButtons />
     </View>

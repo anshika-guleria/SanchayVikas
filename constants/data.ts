@@ -39,6 +39,7 @@ export const navTabs = [
   { label: 'About',    href: '/about',    icon: 'ℹ️' },
   { label: 'Contact',  href: '/contact',  icon: '📞' },
   { label: 'Apply',    href: '/apply',    icon: '📝' },
+   { label: 'Admin Login',    href: '/adminlogin',    icon: '🔐' },
 ];
 
 export const contactInfo = {
@@ -51,7 +52,7 @@ export const contactInfo = {
 };
 
 export const socialLinks = {
-  facebook:  'https://facebook.com',
-  instagram: 'https://instagram.com',
-  whatsapp:  'https://wa.me/919235870132',
+  facebook:  ' https://www.facebook.com/share/1E24H9r8bK/',
+  instagram: 'https://www.instagram.com/sanchayvikas?igsh=MWpiYW1mZWFhZG03cA==',
+  whatsapp:  'https://wa.me/9235870132',
 };

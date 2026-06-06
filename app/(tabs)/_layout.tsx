@@ -8,6 +8,7 @@ const TAB_ICONS: Record<string, string> = {
   about:    'ℹ️',
   contact:  '📞',
   apply:    '📝',
+  adminlogin: '🔐',
 };
 
 const TAB_LABELS: Record<string, string> = {
@@ -16,6 +17,7 @@ const TAB_LABELS: Record<string, string> = {
   about:    'About',
   contact:  'Contact',
   apply:    'Apply',
+  adminlogin: 'Admin Login',
 };
 
 export default function TabLayout() {
@@ -49,6 +51,7 @@ export default function TabLayout() {
       <Tabs.Screen name="about" />
       <Tabs.Screen name="contact" />
       <Tabs.Screen name="apply" />
+      <Tabs.Screen name="adminlogin" options={{ href: '/adminlogin' }}/>
     </Tabs>
   );
 }

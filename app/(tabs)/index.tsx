@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from 'react-native';
 import { useTheme } from '../(context)/ThemeContext';
 import FloatingButtons from '../../components/FloatingButtons';
-import Footer from '../../components/Footer';
 import HeroSection from '../../components/HeroSection';
 import LoanCard from '../../components/Loancard';
 import Navbar from '../../components/Navbar';
@@ -23,9 +22,9 @@ export default function HomeScreen() {
         <HeroSection darkMode={darkMode} />
 
         {/* Services section header */}
-        <View style={{ paddingHorizontal: 16, paddingTop: 8, alignItems: 'center' }}>
+        <View style={{ paddingHorizontal: 16, alignItems: 'center' }}>
           <View style={{ backgroundColor: pillBg, paddingHorizontal: 16, paddingVertical: 6, borderRadius: 999, marginBottom: 12 }}>
-            <Text style={{ fontSize: 12, fontWeight: '600', color: pillText }}>Our Financial Services</Text>
+            <Text style={{ fontSize: 13, fontWeight: '600', color: pillText }}>Our Financial Services</Text>
           </View>
           <Text style={{ fontSize: 22, fontWeight: '700', color: titleColor, textAlign: 'center' }}>
             Comprehensive{' '}
@@ -58,7 +57,6 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        <Footer darkMode={darkMode} />
       </ScrollView>
       <FloatingButtons />
     </View>

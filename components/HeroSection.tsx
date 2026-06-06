@@ -10,7 +10,7 @@ export default function HeroSection({ darkMode }: { darkMode: boolean }) {
   const outlineBg = darkMode ? '#2d2d6e' : '#FFFFFF';
 
   return (
-    <View style={{ backgroundColor: bg, paddingHorizontal: 24, paddingTop: 48, paddingBottom: 64, alignItems: 'center' }}>
+    <View style={{ backgroundColor: bg, paddingHorizontal: 24, paddingTop: 48, paddingBottom: 40, alignItems: 'center' }}>
       {/* Decorative blob */}
       <View style={{ position: 'absolute', left: -40, top: 60, width: 120, height: 120, borderRadius: 60, backgroundColor: 'rgba(83,74,183,0.08)' }} />
 
@@ -36,11 +36,11 @@ export default function HeroSection({ darkMode }: { darkMode: boolean }) {
       <View style={{ flexDirection: 'row', gap: 12, flexWrap: 'wrap', justifyContent: 'center' }}>
         <TouchableOpacity onPress={() => router.push('/apply' as any)}
           style={{ backgroundColor: '#534AB7', paddingHorizontal: 24, paddingVertical: 14, borderRadius: 999 }}>
-          <Text style={{ color: '#FFFFFF', fontWeight: '600', fontSize: 14 }}>🚀 Apply Now</Text>
+          <Text style={{ color: '#FFFFFF', fontWeight: '600', fontSize: 16 }}>🚀 Apply Now</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => router.push('/services' as any)}
           style={{ backgroundColor: outlineBg, paddingHorizontal: 24, paddingVertical: 14, borderRadius: 999, borderWidth: 1, borderColor: 'rgba(83,74,183,0.3)' }}>
-          <Text style={{ color: '#534AB7', fontWeight: '600', fontSize: 14 }}>🧭 Explore Services</Text>
+          <Text style={{ color: '#534AB7', fontWeight: '600', fontSize: 16 }}>🧭 Explore Services</Text>
         </TouchableOpacity>
       </View>
     </View>
